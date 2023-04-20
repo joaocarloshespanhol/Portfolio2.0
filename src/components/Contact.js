@@ -1,17 +1,23 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import ModalMessage from './ModalMessage/ModalMessage.js';
+import { FaSmile } from 'react-icons/fa';
 
 
 
 const Contact = () => {
+  const [modal, setModal] = useState(false);
+  const [modalMessage, setModalMessage] = useState("");
 
   function sendEmail(e) {
     e.preventDefault();
     if(name === '' || email === '' || message === ''){
-      alert("Preencha todos os campos");
+      setModalMessage("Preencha todos os campos.");
+      <FaSmile />
+      setModal(true);
       return;
     }
 
@@ -26,6 +32,8 @@ const Contact = () => {
       setName('')
       setEmail('')
       setMessage('')
+      setModalMessage("Mensagem enviada com sucesso.");
+      setModal(true);
 
     }, (err) => {
         console.log("Erro: ", err)
@@ -81,6 +89,13 @@ const Contact = () => {
           ></textarea>
           <button className='btn btn-lg'>Enviar Mensagem</button>
           </motion.form>
+          <ModalMessage
+            open={modal}
+            message={modalMessage}
+            onClick={() => {
+          setModal(false);
+        }}
+      />
 
       </div>
     </div>
