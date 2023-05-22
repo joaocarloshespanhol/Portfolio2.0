@@ -55,7 +55,7 @@ const About = () => {
                   Startup de Recife-PE,
                   com foco em design, mkt e desenvolvimento Front-End.<br/>
                   <br/>
-                  Atuo também com criação de sites como Freelance,<br/> com dois sites de clientes no ar.<br/> 
+                  Atuo também com criação de sites como Freelance,<br/> com três sites de clientes no ar.<br/> 
                   E cuido do site de um E-commerce de Embalagens,<br/> participando junto com a equipe de Marketing.<br/>
                   
                   

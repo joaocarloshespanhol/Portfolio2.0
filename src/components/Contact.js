@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
-import { useState, useRef } from 'react';
+import { useState} from 'react';
 import emailjs from '@emailjs/browser';
 import ModalMessage from './ModalMessage/ModalMessage.js';
 import { FaSmile } from 'react-icons/fa';

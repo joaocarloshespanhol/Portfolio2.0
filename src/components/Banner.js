@@ -65,17 +65,17 @@ const Banner = () => {
           className='flex text-[35px] gap-x-6 max-w-max mx-auto lg:mx-0'>
           <a href='https://github.com/joaocarloshespanhol'
           target='_blank'
-          rel="noopener">
+          rel="noopener noreferrer">
             <FaGithub />
           </a>
           <a href='https://www.linkedin.com/in/joaocarloshespanhol/'
           target='_blank'
-          rel="noopener">
+          rel="noopener noreferrer">
             <FaLinkedin />
           </a>
           <a href='https://www.instagram.com/jc.sites/'
           target='_blank'
-          rel="noopener">
+          rel="noopener noreferrer">
             <FaInstagram />
           </a>
           </motion.div>

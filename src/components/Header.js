@@ -10,7 +10,7 @@ const Header = () => {
         </a>
         <a href='https://api.whatsapp.com/send?phone=5516993074838'
         target='_blank'
-        rel="noopener">
+        rel="noopener noreferrer">
         <button className='md-2 btn btn-sm font-primary'>Contate-me</button>
       </a></div>
     </div>

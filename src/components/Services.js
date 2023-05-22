@@ -43,7 +43,7 @@ const Services = () => {
             </h3>
             <a href='https://api.whatsapp.com/send?phone=5516993074838'
             target='_blank'
-            rel="noopener">
+            rel="noopener noreferrer">
             <button className='btn btn-sm'>Entre em Contato</button>
             </a>
             </motion.div>
@@ -65,7 +65,7 @@ const Services = () => {
                       <div className='flex flex-col flex-1 items-end'>
                         <a href='https://www.alura.com.br/artigos/ux-design-em-t-front-end-a-ver-com-ux/'
                         target='_blank'
-                        rel="noopener">
+                        rel="noopener noreferrer">
                         <BsArrowUpRight />
                           </a>    
                       </div>
