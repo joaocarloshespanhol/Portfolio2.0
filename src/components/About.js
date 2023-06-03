@@ -49,13 +49,13 @@ const About = () => {
               initial='hidden'
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
-            className='whitespace-normal pt-10 flex-auto text-center font-secondary  lg:text-[28px] text-[16px]  '>
+            className='whitespace-normal pt-10 flex-auto text-start mx-auto font-secondary  lg:text-[28px] text-[16px] ml-2'>
               <h2>
-                  Atualmente trabalhando para uma<br/>
-                  Startup de Recife-PE,
-                  com foco em design, mkt e desenvolvimento Front-End.<br/>
+                  Olá, tenho 27 anos e atualmente estou trabalhando
+                  para uma Startup de Recife-PE, com foco em design,<br/>
+                  marketing e desenvolvedor Frontend.<br/>
                   <br/>
-                  Atuo também com criação de sites como Freelance,<br/> com três sites de clientes no ar.<br/> 
+                  Atuo também com criação de sites como Freelancer,<br/> com três sites de clientes no ar.<br/> 
                   E cuido do site de um E-commerce de Embalagens,<br/> participando junto com a equipe de Marketing.<br/>
                   
                   
@@ -64,7 +64,7 @@ const About = () => {
             <div className='text-center mt-8'>
             <a href='https://api.whatsapp.com/send?phone=5516993074838'
               target='_blank'
-              rel="noopener">
+              rel="noopener noreferrer">
               <motion.button 
               variants={fadeIn('up', 0.5 )}
               initial='hidden'
