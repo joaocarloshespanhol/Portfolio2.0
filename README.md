@@ -5,4 +5,4 @@ Feito com React e Tailwindcss.</br>
 Formulário criado com EmailJS.
 
 Acesse</br>
-https://portfolio2-0-black.vercel.app/
+https://jcportfolio2.vercel.app/
