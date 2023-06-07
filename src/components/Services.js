@@ -5,7 +5,7 @@ import { fadeIn } from '../variants';
 
 const services = [
   {
-    name:'UI/UX Design',
+    name:'UX/UI Design',
     description:
     'O profissional de UX/UI atua para beneficiar e otimizar a jornada do cliente. De um lado está o UI Designer, que busca interfaces acessíveis e elementos de interação do público. Por outro lado, o UX acompanha toda a jornada do usuário e como ele usufrui de todo o produto.',
   },
