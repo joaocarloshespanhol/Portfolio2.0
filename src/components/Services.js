@@ -24,13 +24,13 @@ const Services = () => {
   return (
     <section className='section' id='services'>
       <div className='container mx-auto'>
-        <div className='flex flex-col lg:flex-row pt-12 gap-4'>
+        <div className='flex flex-col lg:flex-row pt-12 gap-1'>
           <motion.div
             variants={fadeIn('right', 0.3 )}
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
-            className='flex-1 lg:bg-service bg-no-repeat lg:bg-right mix-blend-lighten mb-12 lg:mb-0 md:ml-40'>
+            className='flex-1 lg:bg-service bg-no-repeat lg:bg-right mix-blend-lighten mb-12 lg:mb-0 md:mx-auto'>
             <h2 className='h2  text-[#42A6E3] mb-6 '> O que eu faço? </h2>
             <h3 className='h3 lg:text-[40] text-[20] max-w-[455px] mb-16 '>
                 Sou especialista em entender a persona do cliente,
