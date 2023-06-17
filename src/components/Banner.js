@@ -25,7 +25,7 @@ const Banner = () => {
               initial='hidden'
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
-              className='mb-6 text-[45px] lg:text-[80px] font-secondary font-semibold uppercase leading-[1]'>
+              className='mb-6 text-[40px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]'>
           
           <span className='mr-2'>E sou</span>
           <TypeAnimation  sequence={[
@@ -88,7 +88,7 @@ const Banner = () => {
           viewport={{ once: false, amount: 0.7 }}
           className='pb-40'>
 
-          <img className='rounded-md' src={Image} alt="" />
+          <img className='rounded-md md:mx-auto' src={Image} alt="" />
           
         </motion.div>
         </div>

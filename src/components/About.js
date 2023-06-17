@@ -49,17 +49,15 @@ const About = () => {
               initial='hidden'
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
-            className='whitespace-normal pt-10 flex-auto text-start mx-auto font-secondary  lg:text-[28px] text-[16px] ml-2'>
-              <h2>
-                  Olá, tenho 27 anos e atualmente estou trabalhando
-                  para uma Startup de Recife-PE, com foco em design,<br/>
+            className='whitespace-normal pt-10 flex-auto text-center mx-auto font-secondary  lg:text-[28px] text-[16px] ml-2'>
+              <div className=''>
+                  Olá, tenho 27 anos e atualmente estou trabalhando<br/>
+                  para uma Startup de Recife-PE, com foco em design,
                   marketing e desenvolvedor Frontend.<br/>
                   <br/>
                   Atuo também com criação de sites como Freelancer,<br/> com três sites de clientes no ar.<br/> 
                   E cuido do site de um E-commerce de Embalagens,<br/> participando junto com a equipe de Marketing.<br/>
-                  
-                  
-              </h2>
+              </div>
             </motion.div>
             <div className='text-center mt-8'>
             <a href='https://api.whatsapp.com/send?phone=5516993074838'

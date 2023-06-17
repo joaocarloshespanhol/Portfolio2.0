@@ -24,15 +24,15 @@ const Services = () => {
   return (
     <section className='section' id='services'>
       <div className='container mx-auto'>
-        <div className='flex flex-col lg:flex-row pt-12'>
+        <div className='flex flex-col lg:flex-row pt-12 gap-4'>
           <motion.div
             variants={fadeIn('right', 0.3 )}
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
-            className='flex-1 lg:bg-service bg-no-repeat lg:bg-right mix-blend-lighten mb-12 lg:mb-0'>
-            <h2 className='h2  text-[#42A6E3] mb-6 lg:text-[] text-[22]'> O que eu faço? </h2>
-            <h3 className='h3 lg:text-[40] text-[20] max-w-[455px] mb-16'>
+            className='flex-1 lg:bg-service bg-no-repeat lg:bg-right mix-blend-lighten mb-12 lg:mb-0 md:ml-40'>
+            <h2 className='h2  text-[#42A6E3] mb-6 '> O que eu faço? </h2>
+            <h3 className='h3 lg:text-[40] text-[20] max-w-[455px] mb-16 '>
                 Sou especialista em entender a persona do cliente,
                 ajudando-o com soluções simples
                 e elegantes, para que ele consiga alcançar 
@@ -57,7 +57,7 @@ const Services = () => {
                     initial='hidden'
                     whileInView={'show'}
                     viewport={{ once: false, amount: 0.5 }}
-                      className='border-b border-white/20 h-[208px] mb-[30px] flex' key={index}>
+                      className='border-b border-white/20 h-[208px] mb-[30px] flex md:ml-40' key={index}>
                       <div className='max-w-[480px]'>
                         <h4 className='text-[#42A6E3] text-[30px] tracking-wider font-primary font-semibold mb-6'>{name}</h4>
                         <p className='lg:text-[18px] text-[16px] font-secondary leading-tight'>{description}</p>
