@@ -16,7 +16,7 @@ const Banner = () => {
               initial='hidden'
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
-              className='pl-1.5 text-[30px] lg:text-[] font-secondary font-ligt'>
+              className='pl-1.5 text-[30px] lg:text-[] font-secondary font-ligt pt-24'>
             Prazer, me chamo João.
           </motion.h1>
         
@@ -88,7 +88,9 @@ const Banner = () => {
           viewport={{ once: false, amount: 0.7 }}
           className='pb-40'>
 
-          <img className='rounded-md md:mx-auto' src={Image} alt="" />
+          <div className='hidden md:inline'>
+            <img className='rounded-md md:mx-auto'src={Image} alt="" />
+          </div>
           
         </motion.div>
         </div>

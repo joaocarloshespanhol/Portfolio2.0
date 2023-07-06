@@ -21,7 +21,7 @@ const About = () => {
         initial='hidden'
         whileInView={'show'}
         viewport={{ once: false, amount: 0.7 }}
-        className='flex-1 bg-about bg-no-repeat ml-5 lg:items-start lg:w-[340px] h-[640px] mix-blend-lighten rounded-md '>
+        className='flex-1 bg-about hidden md:inline bg-no-repeat ml-5 lg:items-start lg:w-[340px] h-[640px] mix-blend-lighten rounded-md '>
           
         </motion.div>
         <div className='flex-1'>
