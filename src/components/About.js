@@ -27,7 +27,7 @@ const About = () => {
         <div className='flex-1'>
           
         <div 
-        className='text-[48px] text-center font-tertiary text-gradient pt-12 '>
+        className='text-[48px] text-center font-tertiary text-gradient pt-4'>
         {inVew ? <CountUp start={0} end={20} duration={5} /> : null}
         </div>
 
