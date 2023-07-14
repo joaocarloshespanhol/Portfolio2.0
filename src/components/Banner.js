@@ -86,7 +86,7 @@ const Banner = () => {
           initial='hidden'
           whileInView={'show'}
           viewport={{ once: false, amount: 0.7 }}
-          className='pb-40'>
+          className='pb-40 '>
 
           <div className='hidden md:inline'>
             <img className='rounded-md md:mx-auto'src={Image} alt="" />

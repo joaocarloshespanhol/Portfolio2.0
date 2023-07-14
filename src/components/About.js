@@ -14,20 +14,20 @@ const About = () => {
   return ( 
   <section className='section' id='about' ref={ref}>
     <div className='cointainer mx-auto'>
-      <div className='lg:flex flex-col gap-y-10 lg:flex-row lg:items-center'>
+      <div className='lg:flex flex-col lg:flex-row lg:items-center p-1 md:p-16 lg:p-0'>
         
         <motion.div 
         variants={fadeIn('down', 0.5 )}
         initial='hidden'
         whileInView={'show'}
         viewport={{ once: false, amount: 0.7 }}
-        className='flex-1 bg-about hidden md:inline bg-no-repeat ml-5 lg:items-start lg:w-[340px] h-[640px] mix-blend-lighten rounded-md '>
+        className='flex-1 bg-about hidden md:inline bg-no-repeat w-[640px] h-[640px] mix-blend-lighten rounded-md'>
           
         </motion.div>
         <div className='flex-1'>
           
         <div 
-        className='text-[48px] text-center font-tertiary text-gradient pt-1 mb-2'>
+        className='text-[48px] text-center font-tertiary text-gradient pt-12 '>
         {inVew ? <CountUp start={0} end={20} duration={5} /> : null}
         </div>
 
@@ -36,27 +36,33 @@ const About = () => {
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: false, amount: 0.7 }}
-            className=' text-center font-primary text-[48px] tracking-[8px] leading-none'>
+            className=' text-center font-primary text-[48px] leading-none'>
               + Projetos <br/>
               Realizados
             </motion.div>
-          
-            
-            
+
             <motion.div 
             
               variants={fadeIn('up', 0.5 )}
               initial='hidden'
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
-            className='whitespace-normal pt-10 flex-auto text-center mx-auto font-secondary  lg:text-[28px] text-[16px] ml-2'>
+            className='whitespace-normal pt-4 flex-auto text-center mx-auto font-secondary lg:text-[18px] font-semibold text-[16px] p-2 max-w-[855px] lg:w-[400px] xl:w-[500px]'>
               <div className=''>
-                  Olá, tenho 27 anos e atualmente estou trabalhando<br/>
-                  para uma Startup de Recife-PE, com foco em design,
-                  marketing e desenvolvedor Frontend.<br/>
+                  Desde muito cedo sempre gostei bastante de computador
+                  e em 2019 decidi entrar pra faculdade e cursar sistemas de
+                  informação, mergulhei de cabeça na área da tecnologia
+                  e desde então nunca mais parei de aprender.
                   <br/>
-                  Atuo também com criação de sites como Freelancer,<br/> com três sites de clientes no ar.<br/> 
-                  E cuido do site de um E-commerce de Embalagens,<br/> participando junto com a equipe de Marketing.<br/>
+                  Na universidade me interessei em projetar telas, construir algo visualmente bonito, que chamasse atenção
+                  e ao mesmo tempo funcional, pra tornar a experiência do usuário única.
+                  E foi ai que me tornei desenvolvedor Frontend e comecei a oferecer sites
+                  para empresas próximas, construí clientes e projetei alguns web sites,
+                  institucionais, captação de clientes…
+                  <br/>
+                  Minha última experiência profissional foi em uma Startup de tecnologia, atuava como arquiteto de software,
+                  projetava as telas e desenvolvia a parte de Frontend dos sistemas.
+                  Era também, responsavel pelo marketing, como apresentações para potenciais clientes.
               </div>
             </motion.div>
             <div className='text-center mt-8'>
