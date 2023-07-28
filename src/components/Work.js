@@ -30,15 +30,15 @@ const Work = () => {
           <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl mt-6'>
               <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'> </div>
 
-              <a href='https://taciolobato.com/'
+              <a href='https://vocenocontrole.vercel.app/'
               target='_blank'
               rel="noopener noreferrer">
               <img className='group-hover:scale-125 transition-all duration-500' src={Img1} alt="" />
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                <span className='text-gradient text-[20px] lg:text-[30px] text-[#42A6E3]'> Site para Estúdio de Tatto.</span>
+                <span className='text-gradient text-[20px] lg:text-[30px] text-[#42A6E3]'> Sistema Financeiro.</span>
               </div>
               <div className='absolute -bottom-full left-12 group-hover:bottom-16 transition-all duration-700 z-50'>
-                <span className='text-gradient text-1xl lg:text-xl text-white'> www.taciolobato.com </span>
+                <span className='text-gradient text-1xl lg:text-xl text-white'> vocenocontrole.vercel.app </span>
               </div></a>
         </div>
       </motion.div>
