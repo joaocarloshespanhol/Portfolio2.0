@@ -72,7 +72,7 @@ const Work = () => {
               rel="noopener noreferrer">
               <img className='group-hover:scale-125 transition-all duration-500' src={Img3} alt="" />
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                <span className='text-gradient text-[20px] lg:text-[30px] text-[#42A6E3]'> Site para uma advogada. </span>
+                <span className='text-gradient text-[20px] lg:text-[30px] text-[#42A6E3]'> Site para advogada. </span>
               </div>
               <div className='absolute -bottom-full left-12 group-hover:bottom-16 transition-all duration-700 z-50'>
                 <span className='text-gradient text-1xl lg:text-xl text-white'> www.advogadaisabellatonin.com.br </span>
