@@ -47,7 +47,7 @@ const About = () => {
               initial='hidden'
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
-            className='whitespace-normal pt-8 flex-auto text-center mx-auto font-secondary lg:text-[18px] font-semibold text-[16px] p-2 max-w-[855px] lg:w-[400px] xl:w-[500px]'>
+            className='whitespace-normal pt-8 flex-auto text-start mx-auto font-secondary lg:text-[18px] font-semibold text-[16px] p-2 max-w-[855px] lg:w-[400px] xl:w-[500px]'>
               <div className=''>
                   Desde muito cedo sempre gostei bastante de computador
                   e em 2019 decidi entrar pra faculdade e cursar sistemas de
