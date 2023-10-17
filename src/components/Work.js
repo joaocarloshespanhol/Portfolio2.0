@@ -4,6 +4,8 @@ import { fadeIn } from '../variants';
 import Img1 from '../assets/portfolio-img1.png';
 import Img2 from '../assets/portfolio-img2.png';
 import Img3 from '../assets/portfolio-img3.png';
+import Img4 from '../assets/portfolio-img4.png';
+import Img5 from '../assets/portfolio-img5.png';
 
 const Work = () => {
   return ( 
@@ -27,6 +29,7 @@ const Work = () => {
             
             <button className='btn btn-sm'> Visualizar todos projetos</button>
             </div>
+            <div className='flex-1'>
           <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl mt-6'>
               <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'> </div>
 
@@ -38,8 +41,23 @@ const Work = () => {
                 <span className='text-gradient text-[20px] lg:text-[30px] text-[#42A6E3]'> Sistema Financeiro.</span>
               </div>
               <div className='absolute -bottom-full left-12 group-hover:bottom-16 transition-all duration-700 z-50'>
-                <span className='text-gradient text-1xl lg:text-xl text-white'> vocenocontrole.vercel.app </span>
+                <span className='text-gradient text-[12px] lg:text-xl text-white'> vocenocontrole.vercel.app </span>
               </div></a>
+        </div>
+          <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl mt-6'>
+              <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'> </div>
+
+              <a href='https://biasantucci.vercel.app/'
+              target='_blank'
+              rel="noopener noreferrer">
+              <img className='group-hover:scale-125 transition-all duration-500' src={Img5} alt="" />
+              <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
+                <span className='text-gradient text-[20px] lg:text-[30px] text-[#42A6E3]'> Site para Nail Designer</span>
+              </div>
+              <div className='absolute -bottom-full left-12 group-hover:bottom-16 transition-all duration-700 z-50'>
+                <span className='text-gradient text-[12px] lg:text-xl text-white'> biasantucci.com.br </span>
+              </div></a>
+        </div>
         </div>
       </motion.div>
 
@@ -60,7 +78,7 @@ const Work = () => {
                 <span className='text-gradient text-[20px] lg:text-[30px] text-[#42A6E3]'> Site para Gestor de Tráfego.</span>
               </div>
               <div className='absolute -bottom-full left-12 group-hover:bottom-16 transition-all duration-700 z-50'>
-                <span className='text-gradient text-1xl lg:text-xl text-white'> www.trafegoparatatuadores.com.br </span>
+                <span className='text-gradient text-[12px] lg:text-xl text-white'> www.trafegoparatatuadores.com.br </span>
               </div></a>
           </div>
           <div className='flex-1 mt-7'>
@@ -75,9 +93,24 @@ const Work = () => {
                 <span className='text-gradient text-[20px] lg:text-[30px] text-[#42A6E3]'> Site para advogada. </span>
               </div>
               <div className='absolute -bottom-full left-12 group-hover:bottom-16 transition-all duration-700 z-50'>
-                <span className='text-gradient text-1xl lg:text-xl text-white'> www.advogadaisabellatonin.com.br </span>
+                <span className='text-gradient text-[12px] lg:text-xl text-white'> www.advogadaisabellatonin.com.br </span>
               </div></a>
           </div>
+          <div className='mt-7 group relative overflow-hidden border-2 border-white/50 rounded-xl'>
+              <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'> </div>
+
+              <a href='https://primaveraalimentos.vercel.app/'
+              target='_blank'
+              rel="noopener noreferrer">
+              <img className='group-hover:scale-125 transition-all duration-500' src={Img4} alt="" />
+              <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
+                <span className='text-gradient text-[20px] lg:text-[30px] text-[#42A6E3]'> Sistema para Empresa. </span>
+              </div>
+              <div className='absolute -bottom-full left-12 group-hover:bottom-16 transition-all duration-700 z-50'>
+                <span className='text-gradient text-[12px] lg:text-xl text-white'> www.primaveraalimentos.com.br </span>
+              </div></a>
+          </div>
+          
         </div>
       </motion.div>
 

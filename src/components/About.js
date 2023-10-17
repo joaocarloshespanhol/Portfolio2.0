@@ -28,7 +28,7 @@ const About = () => {
           
         <div 
         className='text-[48px] text-center font-tertiary text-gradient pt-2'>
-        {inVew ? <CountUp start={0} end={20} duration={5} /> : null}
+        {inVew ? <CountUp start={0} end={50} duration={5} /> : null}
         </div>
 
             <motion.div 
@@ -47,7 +47,7 @@ const About = () => {
               initial='hidden'
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
-            className='whitespace-normal pt-8 flex-auto text-start mx-auto font-secondary lg:text-[18px] font-semibold text-[16px] p-2 max-w-[855px] lg:w-[400px] xl:w-[500px]'>
+            className='whitespace-normal pt-8 flex-auto text-start mx-auto font-secondary lg:text-[18px] font-normal text-[16px] p-2 max-w-[855px] lg:w-[400px] xl:w-[500px]'>
               <div className=''>
                   Desde muito cedo sempre gostei bastante de computador
                   e em 2019 decidi entrar pra faculdade e cursar sistemas de
