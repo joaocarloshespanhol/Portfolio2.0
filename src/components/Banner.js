@@ -73,7 +73,7 @@ const Banner = () => {
           rel="noopener noreferrer">
             <FaLinkedin />
           </a>
-          <a href='https://www.instagram.com/jc.sites/'
+          <a href='https://www.instagram.com/jc.desenvolvedor/'
           target='_blank'
           rel="noopener noreferrer">
             <FaInstagram />
