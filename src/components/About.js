@@ -49,7 +49,7 @@ const About = () => {
               viewport={{ once: false, amount: 0.7 }}
             className='whitespace-normal pt-8 flex-auto text-start mx-auto font-secondary lg:text-[18px] font-normal text-[16px] p-2 max-w-[855px] lg:w-[400px] xl:w-[500px]'>
               <div className=''>
-                  Desde muito cedo sempre gostei bastante de computador
+                  Desde muito novo sempre gostei muito de computador,
                   e em 2019 decidi entrar pra faculdade e cursar sistemas de
                   informação, mergulhei de cabeça na área da tecnologia
                   e desde então nunca mais parei de aprender.
