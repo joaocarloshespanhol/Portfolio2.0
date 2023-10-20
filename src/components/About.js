@@ -60,7 +60,7 @@ const About = () => {
                   para empresas próximas, construí clientes e projetei alguns web sites,
                   institucionais, captação de clientes…
                   <br/>
-                  Minha última experiência profissional trabalhando pra uma empresa, foi em uma Startup de tecnologia, atuava como arquiteto de software,
+                  Minha última experiência profissional trabalhando pra uma empresa foi em uma Startup de tecnologia, atuava como arquiteto de software,
                   projetava as telas e desenvolvia a parte de Frontend dos sistemas.
                   Era também, responsável pelo marketing, como apresentações para potenciais clientes.
                   Hoje em dia atuo como Freelancer, oferecendo serviços digitais de qualidade e com objetivo.
