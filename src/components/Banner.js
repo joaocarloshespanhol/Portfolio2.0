@@ -9,7 +9,7 @@ const Banner = () => {
   return ( 
   <section className='section' id='banner'>
     <div className="container mx-auto">
-      <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center'>
+      <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center mt-12'>
         <div className='lg:mb-60 flex-1 text-center font-secondary lg:text-left'>
           <motion.h1 
               variants={fadeIn('up', 0.3 )}
