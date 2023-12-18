@@ -7,7 +7,7 @@ export default function ModalMessage(props) {
 
     return (
         <Transition.Root show={props.open} as={Fragment}>
-            <Dialog as="div" className="relative z-10" initialFocus={cancelButtonRef} onClose={props.onClick}>
+            <Dialog as="div" className="relative z-50" initialFocus={cancelButtonRef} onClose={props.onClick}>
                 <Transition.Child
                     as={Fragment}
                     enter="ease-out duration-300"
@@ -44,7 +44,12 @@ export default function ModalMessage(props) {
                                 <div className="bg-gray-50 px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6">
                                     <button
                                         type="button"
-                                        className="mt-3 inline-flex w-full justify-center rounded-md bg-white px-4 py-2 text-base font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:text-[#42A6E3] sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm"
+                                        className={`mt-3 inline-flex w-full justify-center rounded-md bg-white px-4 py-2
+                                        text-base font-medium text-gray-700 shadow-sm focus:outline-none
+                                        focus:text-[#42A6E3] focus:hover:text-white focus:hover:font-black sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm
+                                        transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110
+                                        hover:bg-[#42A6E3] duration-300
+                                        `}
                                         onClick={props.onClick}
                                         ref={cancelButtonRef}
                                     >
