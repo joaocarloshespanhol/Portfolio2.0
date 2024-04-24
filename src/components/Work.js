@@ -85,7 +85,7 @@ const Work = () => {
           <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
               <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'> </div>
 
-              <a href='https://advisabellatonin.vercel.app/'
+              <a href='https://advogadaisabellatonin.com.br'
               target='_blank'
               rel="noopener noreferrer">
               <img className='group-hover:scale-125 transition-all duration-500' src={Img3} alt="" />
