@@ -28,7 +28,7 @@ const About = () => {
           
         <div 
         className='text-[48px] text-center font-tertiary text-gradient pt-2'>
-        {inVew ? <CountUp start={0} end={50} duration={5} /> : null}
+        {inVew ? <CountUp start={10} end={100} duration={5} /> : null}
         </div>
 
             <motion.div 
@@ -49,21 +49,21 @@ const About = () => {
               viewport={{ once: false, amount: 0.7 }}
             className='whitespace-normal pt-8 flex-auto text-start mx-auto font-secondary lg:text-[18px] font-normal text-[16px] p-2 max-w-[855px] lg:w-[400px] xl:w-[500px]'>
               <div className=''>
-                  Desde muito novo sempre gostei muito de computador,
+                  Desde muito novo sempre gostei muito de computador e criar,
                   e em 2019 decidi entrar pra faculdade e cursar sistemas de
                   informação, mergulhei de cabeça na área da tecnologia
                   e desde então nunca mais parei de aprender.
                   <br/>
-                  Na universidade me interessei em projetar telas, construir algo visualmente bonito, que chamasse atenção
-                  e ao mesmo tempo funcional, pra tornar a experiência do usuário única.
+                  Na universidade me interessei na parte visual das coisas, ter criatividade
+                  pra tornar produto/sistema algo que funcione e alcançe o objetivo esperado.
                   E foi ai que me tornei desenvolvedor Frontend e comecei a oferecer sites
                   para empresas próximas, construí clientes e projetei alguns web sites,
-                  institucionais, captação de clientes…
+                  institucionais, captação de clientes, páginas de lançamento, sistemas…
                   <br/>
-                  Minha última experiência profissional trabalhando pra uma empresa foi em uma Startup de tecnologia, atuava como arquiteto de software,
-                  projetava as telas e desenvolvia a parte de Frontend dos sistemas.
-                  Era também, responsável pelo marketing, como apresentações para potenciais clientes.
-                  Hoje em dia atuo como Freelancer, oferecendo serviços digitais de qualidade e com objetivo.
+                  Possuo experiência profissional de 5 anos trabalhando para Startups de tecnologia, como arquiteto de software,
+                  Design responsivo, Design no figma, react, javascript, typescript, e-ecomerce, marketing digital entre outros. 
+                  Hoje em dia trabalho como Freelancer, para empresas e clientes própios, sempre 
+                  oferecendo serviços digitais de qualidade e com objetivo.
                   <br/>
 
               </div>

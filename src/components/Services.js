@@ -36,8 +36,8 @@ const Services = () => {
                 Sou especialista em entender a persona do cliente,
                 ajudando-o com soluções simples
                 e elegantes, para que ele consiga alcançar 
-                todos os objetivos. 
-                Em prototipagem utilizo o Figma e no Desenvolvimento
+                todos os objetivos.<br/>
+                No Design uso o Figma e no Desenvolvimento
                 React e Tailwindcss.
 
             </h3>
