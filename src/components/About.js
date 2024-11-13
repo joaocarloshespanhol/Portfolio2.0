@@ -49,21 +49,15 @@ const About = () => {
               viewport={{ once: false, amount: 0.7 }}
             className='whitespace-normal pt-8 flex-auto text-start mx-auto font-secondary lg:text-[18px] font-normal text-[16px] p-2 max-w-[855px] lg:w-[400px] xl:w-[500px]'>
               <div className=''>
-                  Desde muito novo sempre gostei de computador e criar,
-                  e em 2019 decidi entrar pra faculdade e cursar sistemas de
-                  informação, mergulhei de cabeça na área da tecnologia
-                  e desde então nunca mais parei de aprender.
+                
+                  Olá, prazer.
+                  Desde muito novo sempre gostei de computador e criar. 
+                  E após entrar na faculdade e cursar sistemas de informação, mergulhei de cabeça na área da tecnologia e desde então nunca mais parei de aprender.
                   <br/>
-                  Na universidade me interessei na parte visual das coisas, ter criatividade
-                  pra tornar produto/sistema algo que funcione e alcançe o objetivo esperado.
-                  E foi ai que me tornei desenvolvedor Frontend e comecei a oferecer sites
-                  para empresas próximas, construí clientes e projetei alguns web sites,
-                  institucionais, captação de clientes, páginas de lançamento, sistemas…
+                  Na universidade me interessei na parte visual das coisas, ter criatividade pra tornar produto/sistema funcional e que alcançe o objetivo esperado. 
+                  E foi ai que me tornei desenvolvedor Frontend e comecei a oferecer sites para empresas próximas, construí clientes e projetei alguns web sites, institucionais, captação de clientes, páginas de lançamento, sistemas…
                   <br/>
-                  Possuo experiência profissional de 5 anos trabalhando para Startups de tecnologia, como arquiteto de software,
-                  Design responsivo, Design no figma, react, javascript, typescript, e-ecomerce, marketing digital entre outros. 
-                  Hoje em dia trabalho como Freelancer, para empresas e clientes própios, sempre 
-                  oferecendo serviços digitais de qualidade e com objetivo.
+                  Possuo experiência profissional de 4 anos trabalhando para empresas de tecnologia, como arquiteto de software, Design e prototipagem no figma, html, css, react, javascript, typescript, e-ecomerce, marketing digital entre outros. Hoje em dia trabalho como Freelancer, para empresas e clientes própios, sempre oferecendo serviços digitais de qualidade e cumprindo prazos estabelecidos!
                   <br/>
 
               </div>
