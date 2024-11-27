@@ -51,14 +51,15 @@ const About = () => {
               <div className=''>
                 
                   Olá, prazer.
-                  Desde muito novo sempre gostei de computador e criar. 
-                  E após entrar na faculdade e cursar sistemas de informação, mergulhei de cabeça na área da tecnologia e desde então nunca mais parei de aprender.
+                  Sou um profissional com aproximadamente 4 anos de experiência no setor de tecnologia, com ampla
+                  atuação em empresas e diversos projetos.
                   <br/>
-                  Na universidade me interessei na parte visual das coisas, ter criatividade pra tornar produto/sistema funcional e que alcançe o objetivo esperado. 
-                  E foi ai que me tornei desenvolvedor Frontend e comecei a oferecer sites para empresas próximas, construí clientes e projetei alguns web sites, institucionais, captação de clientes, páginas de lançamento, sistemas…
+                  Tenho habilidades em arquitetura de software, design
+                  e prototipagem com Figma, em tecnologias como HTML, CSS, JavaScript, TypeScript, React e Next. 
+                  Também possuo conhecimentos em e-commerce e marketing digital.
                   <br/>
-                  Possuo experiência profissional de 4 anos trabalhando para empresas de tecnologia, como arquiteto de software, Design e prototipagem no figma, html, css, react, javascript, typescript, e-ecomerce, marketing digital entre outros. Hoje em dia trabalho como Freelancer, para empresas e clientes própios, sempre oferecendo serviços digitais de qualidade e cumprindo prazos estabelecidos!
-                  <br/>
+                  Atualmente, trabalho como freelancer, oferecendo serviços digitais personalizados para
+                  empresas e clientes próprios.
 
               </div>
             </motion.div>

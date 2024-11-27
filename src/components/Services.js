@@ -37,8 +37,6 @@ const Services = () => {
                 ajudando-o com soluções simples
                 e elegantes, para que ele consiga alcançar 
                 todos os objetivos.<br/>
-                No Design uso o Figma e no Desenvolvimento
-                React e Tailwindcss.
 
             </h3>
             <a href='https://api.whatsapp.com/send?phone=5516993074838'
