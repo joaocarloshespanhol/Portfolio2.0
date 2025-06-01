@@ -156,7 +156,7 @@ const Work = () => {
                 <span className='text-gradient text-[12px] lg:text-xl text-white'> www.gabrielledelatorre.adv.br </span>
               </div></a>
           </div>
-          <div className='mt-7 group relative overflow-hidden border-2 border-white/50 rounded-xl'>
+          {/* <div className='mt-7 group relative overflow-hidden border-2 border-white/50 rounded-xl'>
               <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'> </div>
 
               <a href='https://casaslotericas.com.br/'
@@ -169,7 +169,7 @@ const Work = () => {
               <div className='absolute -bottom-full left-12 group-hover:bottom-16 transition-all duration-700 z-50'>
                 <span className='text-gradient text-[12px] lg:text-xl text-white'> www.casaslotericas.com.br </span>
               </div></a>
-          </div>
+          </div> */}
           
         </div>
       </motion.div>
