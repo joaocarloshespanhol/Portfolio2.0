@@ -1,4 +1,3 @@
-import React from 'react';
 import { BsArrowUpRight } from 'react-icons/bs';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
@@ -22,7 +21,7 @@ const services = [
 ];
 const Services = () => {
   return (
-    <section className='section' id='services'>
+    <section className='section lg:mt-32' id='services'>
       <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row pt-12 gap-1'>
           <motion.div
@@ -30,19 +29,18 @@ const Services = () => {
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
-            className='flex-1 lg:bg-service bg-no-repeat lg:bg-right mix-blend-lighten mb-12 lg:mb-0 md:mx-auto'>
+            className='flex-1 lg:bg-service bg-no-repeat lg:bg-right mix-blend-lighten mb-6 lg:mb-0 md:mx-auto'>
             <h2 className='h2  text-[#42A6E3] mb-6 '> O que eu faço? </h2>
             <h3 className='h3 lg:text-[40] text-[20] max-w-[455px] mb-16 lg:w-[400px] xl:w-[500px]'>
-                Sou especialista em entender a persona do cliente,
-                ajudando-o com soluções simples
-                e elegantes, para que ele consiga alcançar 
-                todos os objetivos.<br/>
+                Especialista em frontend com foco na criação de interfaces intuitivas,
+                responsivas e centradas na experiência do usuário. Integro soluções com APIs de forma eficiente,
+                entregando produtos funcionais que geram valor real e alinham usabilidade, performance e objetivos de negócio.<br/>
 
             </h3>
             <a href='https://api.whatsapp.com/send?phone=5516993074838'
             target='_blank'
             rel="noopener noreferrer">
-            <button className='btn btn-sm'>Entre em Contato</button>
+            <button className='btn btn-sm mb-8'>Entre em Contato</button>
             </a>
             </motion.div>
           <div className='flex'>

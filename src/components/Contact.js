@@ -45,7 +45,7 @@ const Contact = () => {
   const [message, setMessage ] = useState('')
 
   return (
-  <section className='py-16 lg:section xl:mt-[30%] lg:mt-[40%]' id='contact'>
+  <section className='py-16 lg:section xl:mt-[60%] lg:mt-[40%]' id='contact'>
     <div className='container mx-auto'>
       <div className='flex flex-col lg:flex-row'>
         <motion.div
