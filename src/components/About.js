@@ -14,7 +14,7 @@ const About = () => {
   return ( 
   <section className='section' id='about' ref={ref}>
     <div className='cointainer mx-auto'>
-      <div className='lg:flex flex-col lg:flex-row lg:items-center p-1 md:p-16 lg:p-0 mt-20'>
+      <div className='lg:flex flex-col lg:flex-row lg:items-center p-1 md:p-16 lg:p-0'>
         
         <motion.div 
         variants={fadeIn('down', 0.5 )}
@@ -26,7 +26,7 @@ const About = () => {
         <div className='flex-1'>
           
         <div 
-        className='text-[48px] text-center font-tertiary text-gradient pt-2'>
+        className='text-[48px] text-center font-tertiary text-gradient mt-20'>
         {inVew ? <CountUp start={10} end={100} duration={5} /> : null}
         </div>
 
