@@ -14,7 +14,7 @@ const About = () => {
   return ( 
   <section className='section' id='about' ref={ref}>
     <div className='cointainer mx-auto'>
-      <div className='lg:flex flex-col lg:flex-row lg:items-center p-1 md:p-16 lg:p-0'>
+      <div className='lg:flex flex-col lg:flex-row lg:items-center p-1 md:p-16 lg:p-0 mt-20'>
         
         <motion.div 
         variants={fadeIn('down', 0.5 )}
