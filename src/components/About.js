@@ -18,7 +18,6 @@ const About = () => {
         
         <motion.div 
         variants={fadeIn('down', 0.5 )}
-        initial='hidden'
         whileInView={'show'}
         viewport={{ once: false, amount: 0.7 }}
         className='flex-1 bg-about ml-10 hidden md:inline bg-no-repeat w-[640px] h-[640px] mix-blend-lighten rounded-md'>
