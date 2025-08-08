@@ -22,7 +22,7 @@ const About = () => {
           
         </motion.div>
         <div className='flex-1'>
-            <div className='flex flex-col text-center text-[60px] font-black text-blue-600'>
+            <div className='flex flex-col text-center text-[60px] font-black text-[#42A6E3]'>
               100+
             </div>
             <motion.div 
