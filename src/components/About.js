@@ -1,5 +1,3 @@
-import React from 'react';
-import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
@@ -7,7 +5,7 @@ import { fadeIn } from '../variants';
 
 
 const About = () => {
-  const [ref, inVew] = useInView({
+  const [ref] = useInView({
     threshold: 0.5,
   });
   
@@ -24,16 +22,13 @@ const About = () => {
           
         </motion.div>
         <div className='flex-1'>
-          
-        <div 
-        className='text-[48px] text-center font-tertiary text-gradient'>
-        {inVew ? <CountUp start={10} end={100} duration={5} /> : null}
-        </div>
-
+            <div className='flex flex-col text-center text-[60px] font-black text-blue-600'>
+              100+
+            </div>
             <motion.div 
             variants={fadeIn('up', 0.5 )}
             className=' text-center font-primary text-[48px] leading-none'>
-              + Projetos <br/>
+              Projetos <br/>
               Realizados
             </motion.div>
 
