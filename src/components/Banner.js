@@ -33,8 +33,6 @@ const Banner = () => {
             2000,
             'Frontend',
             2000,
-            'Marketing Digital',
-            2000,
             'UX/UI',
             2000,
 
