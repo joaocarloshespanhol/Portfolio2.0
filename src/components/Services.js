@@ -30,8 +30,8 @@ const Services = () => {
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
             className='flex-1 lg:bg-service bg-no-repeat lg:bg-right mix-blend-lighten mb-6 lg:mb-0 md:mx-auto'>
-            <h2 className='h2  text-[#42A6E3] mb-6 lg:text-[40px]'> O que eu faço? </h2>
-            <h3 className='h3 lg:text-[40] text-[20] max-w-[455px] mb-16 lg:w-[400px] xl:w-[500px]'>
+            <h2 className='h2  text-[#42A6E3] font-primary font-semibold mb-6 lg:text-[40px]'> O que eu faço? </h2>
+            <h3 className='h3 lg:text-[40] text-[20] max-w-[455px] mb-16 lg:w-[400px] xl:w-[500px] font-medium'>
                 Especialista em frontend com foco na criação de interfaces intuitivas,
                 responsivas e centradas na experiência do usuário. Integro soluções com APIs de forma eficiente,
                 entregando produtos funcionais que geram valor real e alinham usabilidade, performance e objetivos de negócio.<br/>

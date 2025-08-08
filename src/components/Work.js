@@ -27,7 +27,7 @@ const Work = () => {
               Meus últimos <br />
               Projetos
             </h2>
-            <p className='h2 text-[12px] lg:text-[15px] max-w-lg mb-16'>
+            <p className='h2 text-[12px] lg:text-[15px] max-w-lg mb-16 font-primary'>
               Explore alguns dos meus
               projetos.</p>
             
