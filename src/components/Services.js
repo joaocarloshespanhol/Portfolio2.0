@@ -1,3 +1,4 @@
+import React from 'react';
 import { BsArrowUpRight } from 'react-icons/bs';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
@@ -25,7 +26,7 @@ const Services = () => {
       <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row pt-12 gap-1'>
           <motion.div
-            variants={fadeIn('right', 0.3 )}
+            variants={fadeIn('right', 0.3)}
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
@@ -49,7 +50,7 @@ const Services = () => {
                   const {name, description} = service;
                   return (
                     <motion.div
-                    variants={fadeIn('left', 0.5 )}
+                    variants={fadeIn('left', 0.5)}
                     initial='hidden'
                     whileInView={'show'}
                     viewport={{ once: false, amount: 0.5 }}

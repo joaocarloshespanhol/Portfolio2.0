@@ -2,8 +2,8 @@ import React from 'react';
 import Image from '../assets/eu.png';
 import { FaGithub, FaLinkedin, FaInstagram} from 'react-icons/fa';
 import { TypeAnimation } from 'react-type-animation';
-import  {motion } from 'framer-motion'
-import { fadeIn } from '../variants'
+import { motion } from 'framer-motion';
+import { fadeIn } from '../variants';
 
 const Banner = () => {
   return ( 
@@ -12,7 +12,7 @@ const Banner = () => {
       <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center mt-10'>
         <div className='lg:mb-60 flex-1 text-center font-secondary lg:text-left'>
           <motion.h1 
-              variants={fadeIn('up', 0.3 )}
+              variants={fadeIn('up', 0.3)}
               initial='hidden'
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
@@ -21,21 +21,20 @@ const Banner = () => {
           </motion.h1>
         
         <motion.div 
-              variants={fadeIn('up', 0.3 )}
+              variants={fadeIn('up', 0.3)}
               initial='hidden'
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
               className='mb-6 text-[40px] lg:text-[60px] xl:text-[70px] font-secondary font-semibold uppercase leading-[1]'>
           
           <span className='mr-2'>E sou</span>
-          <TypeAnimation  sequence={[
+          <TypeAnimation sequence={[
             'Especialista',
             2000,
             'Frontend',
             2000,
             'UX/UI',
             2000,
-
           ]}
           speed={50}
           className='text-[#42A6E3]'
@@ -46,7 +45,7 @@ const Banner = () => {
         
         <div className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
           <motion.div 
-            variants={fadeIn('up', 0.5 )}
+            variants={fadeIn('up', 0.5)}
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: false, amount: 0.7 }}
@@ -58,7 +57,7 @@ const Banner = () => {
         </div>
 
           <motion.div 
-          variants={fadeIn('up', 0.5 )}
+          variants={fadeIn('up', 0.5)}
           initial='hidden'
           whileInView={'show'}
           viewport={{ once: false, amount: 0.7 }}
@@ -82,7 +81,7 @@ const Banner = () => {
 
         </div>
         <motion.div
-          variants={fadeIn('down', 0.5 )}
+          variants={fadeIn('down', 0.5)}
           initial='hidden'
           whileInView={'show'}
           viewport={{ once: false, amount: 0.7 }}

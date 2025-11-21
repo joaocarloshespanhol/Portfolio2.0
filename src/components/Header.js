@@ -1,3 +1,4 @@
+import React from 'react';
 import Logo from '../assets/newlogo.svg';
 
 const Header = () => {
