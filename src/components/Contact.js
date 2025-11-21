@@ -49,7 +49,7 @@ const Contact = () => {
   // const [message, setMessage ] = useState('')
 
   return (
-  <section className='py-16 lg:section xl:mt-[60%] lg:mt-[40%]' id='contact'>
+  <section className='py-16 lg:section xl:mt-[40%] lg:mt-[40%]' id='contact'>
     <div className='container mx-auto'>
       <div className='flex flex-col lg:flex-row'>
         <motion.div
@@ -60,7 +60,7 @@ const Contact = () => {
         className='flex-1 flex justify-center items-center'>
           <div>
             <h4 className='text-[20px] lg:text-[30px] h2 text-[#42A6E3] font-medium mb-2 tracking-wide'>Chegou até aqui?</h4>
-            <h2 className='text-[50px] lg:text-[90px] leading-none mb-12'>
+            <h2 className='text-[50px] lg:text-[70px] leading-none mb-12'>
               Me envie <br/>
               uma mensagem!
             </h2>
