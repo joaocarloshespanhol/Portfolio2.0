@@ -10,9 +10,9 @@ const services = [
     'O profissional de UX/UI atua para beneficiar e otimizar a jornada do cliente. De um lado está o UI Designer, que busca interfaces acessíveis e elementos de interação do público. Por outro lado, o UX acompanha toda a jornada do usuário e como ele usufrui de todo o produto.',
   },
   {
-    name:'Desenvolvedor',
+    name:'Desenvolvedor FullStack',
     description:
-    'O desenvolvedor front-end é o responsável por colocar em prática, através de códigos, o design de um site, interface ou sistema. Enquanto o design projeta o visual, o desenvolvedor front-end implementa esse design através de códigos, como HTML, CSS, JavaScript, Tailwindcss etc.',    
+    'O desenvolvedor fullstack é o responsável por atuar tanto na interface quanto na estrutura por trás de um sistema. Enquanto o frontend cuida da experiência visual, o fullstack também constrói a lógica do backend, integra APIs e gerencia bancos de dados.',    
   },
   {
     name:'Marketing Digital',
@@ -32,10 +32,13 @@ const Services = () => {
             viewport={{ once: false, amount: 0.3 }}
             className='flex-1 lg:bg-service bg-no-repeat lg:bg-right mix-blend-lighten mb-6 lg:mb-0 md:mx-auto'>
             <h2 className='h2  text-[#42A6E3] font-primary font-semibold mb-6 lg:text-[40px]'> O que eu faço? </h2>
-            <h3 className='h3 lg:text-[40] text-[20] max-w-[455px] mb-16 lg:w-[400px] xl:w-[500px] font-medium'>
-                Especialista em frontend com foco na criação de interfaces intuitivas,
-                responsivas e centradas na experiência do usuário. Integro soluções com APIs de forma eficiente,
-                entregando produtos funcionais que geram valor real e alinham usabilidade, performance e objetivos de negócio.<br/>
+            <h3 className='h3 lg:text-[20px] text-[16px] max-w-[455px] mb-16 lg:w-[400px] xl:w-[500px] font-medium'>
+                Sou um desenvolvedor que consigo unir domínio técnico à capacidade de comunicação e
+                trânsito entre diferentes áreas de negócio. Atuo com empatia e liderança, colocando a mão na massa
+                em cada etapa do desenvolvimento, sempre com foco na qualidade da entrega. Integro soluções de forma
+                eficiente, entregando produtos funcionais que geram valor real e alinham usabilidade, performance e
+                objetivos de negócio.
+              <br/>
 
             </h3>
             <a href='https://api.whatsapp.com/send?phone=5516993074838'
@@ -59,13 +62,13 @@ const Services = () => {
                         <h4 className='text-[#42A6E3] text-[30px] tracking-wider font-primary font-semibold mb-6'>{name}</h4>
                         <p className='lg:text-[18px] text-[16px] font-secondary leading-tight'>{description}</p>
                       </div>
-                      <div className='flex flex-col flex-1 items-end'>
+                      {/* <div className='flex flex-col flex-1 items-end'>
                         <a href='https://www.alura.com.br/artigos/ux-design-em-t-front-end-a-ver-com-ux/'
                         target='_blank'
                         rel="noopener noreferrer">
                         <BsArrowUpRight />
                           </a>    
-                      </div>
+                      </div> */}
                     </motion.div>
                   );  
                 })}

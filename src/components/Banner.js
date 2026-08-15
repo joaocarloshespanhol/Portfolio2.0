@@ -29,11 +29,11 @@ const Banner = () => {
           
           <span className='mr-2'>E sou</span>
           <TypeAnimation sequence={[
-            'Especialista',
+            'Dev',
             2000,
-            'Frontend',
+            'Software Engineer',
             2000,
-            'UX/UI',
+            'FullStack',
             2000,
           ]}
           speed={50}

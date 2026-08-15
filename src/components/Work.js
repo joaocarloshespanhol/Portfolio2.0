@@ -76,7 +76,7 @@ const Work = () => {
                 <span className='text-gradient text-[12px] lg:text-xl text-white'> www.direitodefamilia.com.br</span>
               </div></a>
         </div>
-          <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl mt-6'>
+          {/* <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl mt-6'>
               <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'> </div>
 
               <a href='https://jc-qrcodecreator.vercel.app/'
@@ -89,7 +89,7 @@ const Work = () => {
               <div className='absolute -bottom-full left-12 group-hover:bottom-16 transition-all duration-700 z-50'>
                 <span className='text-gradient text-[12px] lg:text-xl text-white'> www.jc-qrcodecreator.vercel.app </span>
               </div></a>
-        </div>
+        </div> */}
         </div>
       </motion.div>
 

@@ -32,24 +32,17 @@ const About = () => {
 
             <div 
             className='whitespace-normal pt-4 flex-auto text-start mx-auto font-secondary lg:text-[17px] 2xl:text-[20px] font-normal text-[16px] p-2 lg:p-0 max-w-[855px] w-full'>
-              <div className=''>
+              <div className='mt-8'>
                 
-                  Sou um desenvolvedor com aproximadamente 4 anos de experiência no setor de tecnologia,
-                  tendo atuado tanto em empresas, diversos projetos e como profissional autônomo.
-                  Durante esses anos, desenvolvi não apenas habilidades técnicas, mas também um forte relacionamento com clientes,
-                  conduzindo todas as etapas do processo: desde a prospecção, entendimento do projeto, alinhamento de requisitos, entregas recorrentes,
-                  ajustes e melhorias contínuas, novas funcionalidades, pesquisa de mercado e suporte pós-projeto.
-                  Esse contato direto me proporcionou uma base sólida em comunicação, empatia, confiança e visão de produto.
+                  Sou desenvolvedor com aproximadamente 4 anos de experiência no setor de tecnologia, 
+                  tendo atuado tanto em empresas quanto em diversos projetos.
                   <br/><br/>
-                  Tenho experiência prática com arquitetura de software, design de interfaces, artes e prototipagem com Figma,
-                  além de domínio em tecnologias como HTML, CSS, Tailwindcss, JavaScript, TypeScript, React e Next.js.
-                  Também acumulo conhecimento em e-commerce e marketing digital, o que me permite contribuir
-                  de forma estratégica em soluções voltadas ao usuário final.
-                  <br/><br/>
-                  Atualmente, atuo como desenvolvedor frontend no Consórcio Magalu, uma das empresas do Grupo Magalu.
-                  O mercado de consórcios está em forte crescimento, impulsionado pelos altos juros do financiamento tradicional,
-                  o que tem tornado o setor ainda mais dinâmico e desafiador e, consequentemente, uma excelente oportunidade
-                  para evolução contínua e contribuição em projetos de grande escala.
+                  Tenho experiência prática com arquitetura de software, claude, harness, agents, design de
+                  interfaces e prototipagem de Design Systems com Figma, desenvolvimento de apis utilizando
+                  tecnologias como nest, express, node, docker, swagger, além de domínio em tecnologias
+                  mas voltadas ao frontend como react (hooks, gestão de estado), next.js (SSR), typescript,
+                  tailwindcss, recharts, chartjs (lib de gráficos) e versionamentos git (gitflow), github,
+                  gitlab e fluxos de CI/CD.
 
               </div>
             </div>
