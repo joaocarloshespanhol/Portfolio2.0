@@ -5,10 +5,10 @@ import Img1 from '../assets/portfolio-img1.png';
 import Img2 from '../assets/portfolio-img2.png';
 import Img3 from '../assets/portfolio-img3.png';
 import Img4 from '../assets/portfolio-img4.png';
-// import Img5 from '../assets/portfolio-img5.png';
+import Img5 from '../assets/portfolio-img5.png';
 import Img6 from '../assets/portfolio-img6.png';
 import Img7 from '../assets/portfolio-img7.png';
-import Img8 from '../assets/portfolio-img8.png';
+// import Img8 from '../assets/portfolio-img8.png';
 // import Img9 from '../assets/portfolio-img9.png';
 
 const Work = () => {
